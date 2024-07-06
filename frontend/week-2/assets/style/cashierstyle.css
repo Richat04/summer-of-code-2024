@@ -1,0 +1,43 @@
+body{
+    background-image: url('/frontend/week-1/assets/media/9f0uxlah.png');
+    height: 100vh; 
+    
+    background-size: cover;
+    background-position: center;
+    
+    align-self: center;
+    justify-content:center;
+    padding-top: 4%;
+    }
+    .rect {
+        padding-top: 5%;
+        width:fit-content;
+        height: 100%;
+        background-color: whitesmoke;
+        
+        display: flex;
+        
+        flex-direction: column;
+        text-align: center;
+        
+        
+        
+        
+    }
+    .rect-rect1 {
+        height: 12rem;
+        width: 12em;
+        border-radius: 50%;
+        background-image: url('/frontend/week-1/assets/media/304u4dko.png');
+        background-position: center;
+        background-size: cover;
+        
+        padding-left: 4%;
+        align-self: center;
+    }
+    .tet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }

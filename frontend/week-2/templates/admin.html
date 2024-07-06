@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <title>Admin Portal</title>
+    <style>
+        body{
+        background-image: url('/frontend/week-1/assets/media/9f0uxlah.png');
+        height: 100vh; 
+        
+        background-size: cover;
+        background-position: center;
+        
+        align-self: center;
+        justify-content:center;
+        padding-top: 4%;
+        }
+        .rect {
+            padding-top: 5%;
+            width:fit-content;
+            height: 100%;
+            background-color: whitesmoke;
+            
+            display: flex;
+            
+            flex-direction: column;
+            text-align: center;
+        
+        
+        
+        
+        }
+        .rect-rect1 {
+            height: 12rem;
+            width: 12em;
+            border-radius: 50%;
+            background-image: url('/frontend/week-1/assets/media/304u4dko.png');
+            background-position: center;
+            background-size: cover;
+            
+            padding-left: 4%;
+            align-self: center;
+        }
+        .tet {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+    }
+    </style>
+  </head>
+  
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Admin Portal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Onshop</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/cashier_details">Cashier details</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/cashatten">Cashier Attendance</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/wasd">Sales</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Analytics
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/recent_orders">Recent Orders</a></li>
+                    <li><a class="dropdown-item" href="/top_stocks">Top Stocks</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="/to-be-ordered">Urgently required Stocks</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Stocks
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item">Stock 1</a></li>
+                      <li><a class="dropdown-item">Stock 2</a></li>
+                      <li><a class="dropdown-item">Stock 3</a></li>
+                      <li><a class="dropdown-item">Stock 4</a></li>
+                      <li><a class="dropdown-item">Stock 5</a></li>
+                      <li><a class="dropdown-item">Stock 6</a></li>
+                      <li><a class="dropdown-item">Stock 7</a></li>
+                    </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <form style="padding-left: 0.75%;" class="d-flex mt-3">
+                
+                <button id="logout" class="btn btn-outline-success" >Logout</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="rect">
+        <h1>Admin</h1>
+        <br>
+        <br>
+        <div class="rect-rect1"></div>
+        <div class="tet"></div>
+        <br>
+        <br>
+          <h4>Name: ABCD</h4>
+          <br>
+          <h5>Email: ******@ETTH</h5>
+          <br>
+          <h5>UserID: WASD</h5>
+          <br>
+          <h5>Phone No: &&&&&&&&&&&</h5>
+          <br>
+          <h5>Address: @@@@@@@@@@</h5>
+      </div>
+
+    <script
+      
+    ></script>
+  </body>
+</html>

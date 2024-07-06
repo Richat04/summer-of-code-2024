@@ -1,0 +1,96 @@
+body {
+    background-image: url('/frontend/week-1/assets/media/67h1pg3p.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    }
+    .button {
+        border: none;
+        
+        padding: 8px 40px;
+        text-align: center;
+        font-size: 1rem;
+        transition-duration: 0.4s;
+        cursor:pointer;
+        margin-left: 35%;
+        
+        display: inline-block;
+        
+    }
+    .button1 {
+        background-color: coral;
+        color: white;
+        border: 2px solid coral;
+        
+    }
+    .button1:hover {
+        background-color:red;
+        color: white;
+    }
+    .button1:active {
+        transform: scale(0.98);
+    }
+    
+    .rect {
+        height: fit-content;
+        width: fit-content;
+        background: azure;
+        align-self: center;
+        
+        
+        
+        display: flex;
+        flex-direction: row;
+            
+    }
+    .rect1 {
+        height: 30rem;
+        width: 25rem;
+        
+        text-align: left;
+        
+    }
+    .rect2 {
+        height: 30rem;
+        width: 30rem;
+        background-image: url('/frontend/week-1/assets/media/store.jpg');
+        
+        background-size: cover;
+        background-position: center;
+    }
+    .tex1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0.75rem;
+    } 
+    .tex2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0.75rem;
+        
+    } 
+    .pass {
+        margin-left: 68%;
+        
+    } 
+    .signup {
+        text-align: center;
+    }
+    .t1{
+        padding: 0.75rem;
+        border-radius: 10px;
+        border: 2px solid #dddddd;
+        background-color: white;
+    }
+    .t2{
+        padding: 0.75rem;
+        border-radius: 10px;
+        border: 2px solid #dddddd;
+        background-color: white;
+    }
+    .form--hidden {
+        display: none;
+    }
